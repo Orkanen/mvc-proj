@@ -96,13 +96,13 @@ class DiceHand
         return $res;
     }
 */
-    public function printRoll(): string
+    public function printRoll()
     {
-        $res = "<p class='dice-utf8'>";
+        $res = array();
         for ($i = 0; $i <= $this->amount; $i++) {
-            $res .= "<i class=" . $this->dices[$i]->graphic() . "></i>";
+            $res[] = $this->dices[$i]->graphic();
         }
 
-        return $res . "</p>";
+        return $res;
     }
 }

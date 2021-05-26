@@ -79,12 +79,15 @@ class DiceController extends Controller
           } else {
               if ($request->amount == "dice1") {
                   $diceHand->createDice();
+                  $diceHand->roll();
+                  $validated = $diceHand->printRoll()[0];
               } else {
                   $diceHand->createDice(1);
+                  $diceHand->roll();
+                  $validated = $diceHand->printRoll()[0];
+                  $validated2 = $diceHand->printRoll()[1];
               }
-              $diceHand->roll();
               $previousRoll = $diceHand->getRollSum();
-              $validated = $diceHand->getSum();
 
               if ($previousRoll > 21) {
                   $previousRoll = "You Lose";
@@ -124,6 +127,7 @@ class DiceController extends Controller
 
           return view('dice', [
               'message' => $validated ?? null,
+              'message2' => $validated2 ?? null,
               'previousRoll' => $previousRoll ?? null,
               'roboRoll' => $robotRolled ?? null,
               'gamePlayed' => $gamePlayed ?? null,
