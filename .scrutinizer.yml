@@ -13,6 +13,6 @@ build:
                 - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-text build
                 - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-html build
                 - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
-                    coverage:
-                        file: build/clover.xml
-                        format: clover
+                coverage:
+                    file: build/clover.xml
+                    format: clover
