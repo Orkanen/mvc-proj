@@ -6,8 +6,8 @@ filter:
 
 build:
   project_setup:
-        override:
-            - true
+    override:
+      - true
   nodes:
     coverage:
       tests:
