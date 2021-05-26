@@ -87,7 +87,7 @@ cs: phpcs
 
 lint: cs phpcpd phpmd phpstan
 
-test: lint phpunit
+test: phpunit
 	composer validate
 
 metric: phploc

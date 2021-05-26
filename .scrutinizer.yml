@@ -1,0 +1,19 @@
+imports:
+    - php
+
+filter:
+    excluded_paths: [vendor/*, test/*, build/*, database/*]
+
+build:
+    nodes:
+        my-tests:
+            environment:
+                php:
+                    version: 7.4
+        coverage:
+            tests:
+                override:
+                    - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
+                      coverage:
+                          file: build/clover.xml
+                          format: php-clover

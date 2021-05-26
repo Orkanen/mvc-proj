@@ -4,12 +4,6 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-use App\Models\Dice;
-use App\Models\DiceHand;
-use App\Models\DiceGraphic;
-use App\Models\Game;
-use App\Models\Rounds;
-
 class ExampleTest extends TestCase
 {
     /**
@@ -19,14 +13,6 @@ class ExampleTest extends TestCase
      */
     public function test_example()
     {
-    	$dice = new Dice();
-    	$dice->roll();
-        $this->assertGreaterThan(0, $dice->getLastRoll());
-    }
-
-        public function test_example2()
-    {
-    	$orange = "3";
-        $this->assertEquals($orange, "3");
+        $this->assertTrue(true);
     }
 }
