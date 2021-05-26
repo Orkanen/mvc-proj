@@ -9,6 +9,7 @@ build:
     coverage:
       tests:
         override:
+          - command: php artisan test
           - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
             coverage:
               file: build/clover.xml   # <- Set this to where we find the coverage data.
