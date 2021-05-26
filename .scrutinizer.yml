@@ -6,14 +6,13 @@ filter:
 
 build:
     nodes:
-        my-tests:
-            environment:
-                php:
-                    version: 7.4
-        coverage:
-            tests:
-                override:
-                    - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
-                      coverage:
-                          file: build/clover.xml
-                          format: clover
+        tests:
+            override:
+                - command: php artisan test
+                coverage:
+                    tests:
+                        override:
+                            - command: XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
+                              coverage:
+                                  file: build/clover.xml
+                                  format: clover
