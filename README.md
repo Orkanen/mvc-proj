@@ -1,7 +1,7 @@
-https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/quality-score.png?b=main
-https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/coverage.png?b=main
-https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/build.png?b=main
-https://travis-ci.org/Orkanen/mvc-proj.svg?branch=main
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/badges/build.png?b=main)](https://scrutinizer-ci.com/g/Orkanen/mvc-proj/build-status/main)
+[![Build Status](https://travis-ci.org/Orkanen/mvc-proj.svg?branch=main)](https://travis-ci.org/Orkanen/mvc-proj)
 
 This is my project for course MVC @BTH.
 In this project I am using Laravels framework to create a website
