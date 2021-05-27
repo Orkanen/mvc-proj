@@ -1,33 +1,39 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Wed May 26 11:29:47 UTC 2021" phpunit="9.5.4" coverage="9.2.6">
+  <build time="Wed May 26 19:45:19 UTC 2021" phpunit="9.5.4" coverage="9.2.6">
     <runtime name="PHP" version="7.4.16" url="https://secure.php.net/"/>
     <driver name="xdebug" version="3.0.4"/>
   </build>
   <project source="C:\Users\Orkanen\dbwebb-kurser\mvc\me\proj\laravel\app\app">
     <tests>
-      <test name="Tests\Feature\ExampleTest::test_example" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_example" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_example2" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_DiceGraphic" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_DiceHand_Construct" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_DiceHand_CreateDice" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_DiceHand_Roll" size="unknown" result="0" status="PASSED"/>
+      <test name="Tests\Unit\ExampleTest::test_Game" size="unknown" result="0" status="PASSED"/>
     </tests>
     <directory name="/">
       <totals>
-        <lines total="1447" comments="313" code="1134" executable="376" executed="15" percent="3.99"/>
-        <methods count="53" tested="5" percent="9.43"/>
+        <lines total="1451" comments="313" code="1138" executable="380" executed="49" percent="12.89"/>
+        <methods count="53" tested="21" percent="39.62"/>
         <functions count="11" tested="0" percent="0.00"/>
-        <classes count="18" tested="3" percent="16.67"/>
+        <classes count="18" tested="2" percent="11.11"/>
         <traits count="1" tested="0" percent="0.00"/>
       </totals>
       <directory name="Console">
         <totals>
-          <lines total="41" comments="16" code="25" executable="4" executed="3" percent="75.00"/>
-          <methods count="2" tested="1" percent="50.00"/>
+          <lines total="41" comments="16" code="25" executable="4" executed="0" percent="0.00"/>
+          <methods count="2" tested="0" percent="0.00"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="1" tested="0" percent="0.00"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <file name="Kernel.php" href="Console/Kernel.php.xml">
           <totals>
-            <lines total="41" comments="16" code="25" executable="4" executed="3" percent="75.00"/>
-            <methods count="2" tested="1" percent="50.00"/>
+            <lines total="41" comments="16" code="25" executable="4" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -54,7 +60,7 @@
       </directory>
       <directory name="Http">
         <totals>
-          <lines total="885" comments="170" code="715" executable="286" executed="0" percent="0.00"/>
+          <lines total="889" comments="170" code="719" executable="290" executed="0" percent="0.00"/>
           <methods count="18" tested="0" percent="0.00"/>
           <functions count="11" tested="0" percent="0.00"/>
           <classes count="7" tested="0" percent="0.00"/>
@@ -62,7 +68,7 @@
         </totals>
         <directory name="Controllers">
           <totals>
-            <lines total="340" comments="25" code="315" executable="141" executed="0" percent="0.00"/>
+            <lines total="344" comments="25" code="319" executable="145" executed="0" percent="0.00"/>
             <methods count="15" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="4" tested="0" percent="0.00"/>
@@ -106,7 +112,7 @@
           </file>
           <file name="DiceController.php" href="Http/Controllers/DiceController.php.xml">
             <totals>
-              <lines total="169" comments="7" code="162" executable="103" executed="0" percent="0.00"/>
+              <lines total="173" comments="7" code="166" executable="107" executed="0" percent="0.00"/>
               <methods count="6" tested="0" percent="0.00"/>
               <functions count="0" tested="0" percent="0"/>
               <classes count="1" tested="0" percent="0.00"/>
@@ -225,10 +231,10 @@
       </directory>
       <directory name="Models">
         <totals>
-          <lines total="306" comments="52" code="254" executable="60" executed="0" percent="0.00"/>
-          <methods count="25" tested="0" percent="0.00"/>
+          <lines total="306" comments="52" code="254" executable="60" executed="49" percent="81.67"/>
+          <methods count="25" tested="21" percent="84.00"/>
           <functions count="0" tested="0" percent="0"/>
-          <classes count="4" tested="0" percent="0.00"/>
+          <classes count="4" tested="2" percent="50.00"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <file name="Bets.php" href="Models/Bets.php.xml">
@@ -242,17 +248,17 @@
         </file>
         <file name="Dice.php" href="Models/Dice.php.xml">
           <totals>
-            <lines total="40" comments="0" code="40" executable="7" executed="0" percent="0.00"/>
-            <methods count="5" tested="0" percent="0.00"/>
+            <lines total="40" comments="0" code="40" executable="7" executed="7" percent="100.00"/>
+            <methods count="5" tested="5" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="2" tested="0" percent="0.00"/>
+            <classes count="2" tested="2" percent="100.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
         <file name="DiceHand.php" href="Models/DiceHand.php.xml">
           <totals>
-            <lines total="108" comments="26" code="82" executable="31" executed="0" percent="0.00"/>
-            <methods count="9" tested="0" percent="0.00"/>
+            <lines total="108" comments="26" code="82" executable="31" executed="23" percent="74.19"/>
+            <methods count="9" tested="7" percent="77.78"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -260,8 +266,8 @@
         </file>
         <file name="Game.php" href="Models/Game.php.xml">
           <totals>
-            <lines total="87" comments="11" code="76" executable="22" executed="0" percent="0.00"/>
-            <methods count="11" tested="0" percent="0.00"/>
+            <lines total="87" comments="11" code="76" executable="22" executed="19" percent="86.36"/>
+            <methods count="11" tested="9" percent="81.82"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -288,27 +294,27 @@
       </directory>
       <directory name="Providers">
         <totals>
-          <lines total="174" comments="60" code="114" executable="23" executed="12" percent="52.17"/>
-          <methods count="7" tested="4" percent="57.14"/>
+          <lines total="174" comments="60" code="114" executable="23" executed="0" percent="0.00"/>
+          <methods count="7" tested="0" percent="0.00"/>
           <functions count="0" tested="0" percent="0"/>
-          <classes count="5" tested="3" percent="60.00"/>
+          <classes count="5" tested="0" percent="0.00"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <file name="AppServiceProvider.php" href="Providers/AppServiceProvider.php.xml">
           <totals>
-            <lines total="28" comments="10" code="18" executable="2" executed="2" percent="100.00"/>
-            <methods count="2" tested="2" percent="100.00"/>
+            <lines total="28" comments="10" code="18" executable="2" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="1" percent="100.00"/>
+            <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
         <file name="AuthServiceProvider.php" href="Providers/AuthServiceProvider.php.xml">
           <totals>
-            <lines total="30" comments="10" code="20" executable="2" executed="2" percent="100.00"/>
-            <methods count="1" tested="1" percent="100.00"/>
+            <lines total="30" comments="10" code="20" executable="2" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="1" percent="100.00"/>
+            <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
@@ -323,16 +329,16 @@
         </file>
         <file name="EventServiceProvider.php" href="Providers/EventServiceProvider.php.xml">
           <totals>
-            <lines total="32" comments="10" code="22" executable="1" executed="1" percent="100.00"/>
-            <methods count="1" tested="1" percent="100.00"/>
+            <lines total="32" comments="10" code="22" executable="1" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="1" percent="100.00"/>
+            <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
         <file name="RouteServiceProvider.php" href="Providers/RouteServiceProvider.php.xml">
           <totals>
-            <lines total="63" comments="25" code="38" executable="15" executed="7" percent="46.67"/>
+            <lines total="63" comments="25" code="38" executable="15" executed="0" percent="0.00"/>
             <methods count="2" tested="0" percent="0.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>

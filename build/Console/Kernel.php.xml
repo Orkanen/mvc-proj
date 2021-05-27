@@ -2,28 +2,17 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="Kernel.php" path="\Console">
     <totals>
-      <lines total="41" comments="16" code="25" executable="4" executed="3" percent="75.00"/>
-      <methods count="2" tested="1" percent="50.00"/>
+      <lines total="41" comments="16" code="25" executable="4" executed="0" percent="0.00"/>
+      <methods count="2" tested="0" percent="0.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="App\Console\Kernel" start="8" executable="4" executed="3" crap="2.06">
+    <class name="App\Console\Kernel" start="8" executable="4" executed="0" crap="6">
       <namespace name="App\Console"/>
       <method name="schedule" signature="schedule(Illuminate\Console\Scheduling\Schedule $schedule)" start="25" end="28" crap="2" executable="1" executed="0" coverage="0"/>
-      <method name="commands" signature="commands()" start="35" end="40" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="commands" signature="commands()" start="35" end="40" crap="2" executable="3" executed="0" coverage="0"/>
     </class>
-    <coverage>
-      <line nr="37">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="39">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="40">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-    </coverage>
     <source>
       <line no="1">
         <token name="T_OPEN_TAG">&lt;?php</token>

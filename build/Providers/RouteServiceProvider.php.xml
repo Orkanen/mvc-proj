@@ -2,40 +2,17 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="RouteServiceProvider.php" path="\Providers">
     <totals>
-      <lines total="63" comments="25" code="38" executable="15" executed="7" percent="46.67"/>
+      <lines total="63" comments="25" code="38" executable="15" executed="0" percent="0.00"/>
       <methods count="2" tested="0" percent="0.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="App\Providers\RouteServiceProvider" start="11" executable="15" executed="7" crap="4.37">
+    <class name="App\Providers\RouteServiceProvider" start="11" executable="15" executed="0" crap="12">
       <namespace name="App\Providers"/>
-      <method name="boot" signature="boot()" start="36" end="50" crap="1.26" executable="11" executed="4" coverage="36.363636363636"/>
-      <method name="configureRateLimiting" signature="configureRateLimiting()" start="57" end="62" crap="2.06" executable="4" executed="3" coverage="75"/>
+      <method name="boot" signature="boot()" start="36" end="50" crap="2" executable="11" executed="0" coverage="0"/>
+      <method name="configureRateLimiting" signature="configureRateLimiting()" start="57" end="62" crap="6" executable="4" executed="0" coverage="0"/>
     </class>
-    <coverage>
-      <line nr="38">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="40">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="49">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="50">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="59">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="61">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-      <line nr="62">
-        <covered by="Tests\Feature\ExampleTest::test_example"/>
-      </line>
-    </coverage>
     <source>
       <line no="1">
         <token name="T_OPEN_TAG">&lt;?php</token>

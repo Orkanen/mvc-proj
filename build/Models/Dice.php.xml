@@ -2,23 +2,55 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="Dice.php" path="\Models">
     <totals>
-      <lines total="40" comments="0" code="40" executable="7" executed="0" percent="0.00"/>
-      <methods count="5" tested="0" percent="0.00"/>
+      <lines total="40" comments="0" code="40" executable="7" executed="7" percent="100.00"/>
+      <methods count="5" tested="5" percent="100.00"/>
       <functions count="0" tested="0" percent="0"/>
-      <classes count="2" tested="0" percent="0.00"/>
+      <classes count="2" tested="2" percent="100.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="App\Models\Dice" start="5" executable="6" executed="0" crap="20">
+    <class name="App\Models\Dice" start="5" executable="6" executed="6" crap="4">
       <namespace name="App\Models"/>
-      <method name="roll" signature="roll(): int" start="11" end="16" crap="2" executable="2" executed="0" coverage="0"/>
-      <method name="getLastRoll" signature="getLastRoll()" start="18" end="21" crap="2" executable="1" executed="0" coverage="0"/>
-      <method name="setFaces" signature="setFaces(int $face)" start="23" end="26" crap="2" executable="2" executed="0" coverage="0"/>
-      <method name="getFaces" signature="getFaces()" start="28" end="31" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="roll" signature="roll(): int" start="11" end="16" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="getLastRoll" signature="getLastRoll()" start="18" end="21" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="setFaces" signature="setFaces(int $face)" start="23" end="26" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="getFaces" signature="getFaces()" start="28" end="31" crap="1" executable="1" executed="1" coverage="100"/>
     </class>
-    <class name="App\Models\DiceGraphic" start="34" executable="1" executed="0" crap="2">
+    <class name="App\Models\DiceGraphic" start="34" executable="1" executed="1" crap="1">
       <namespace name="App\Models"/>
-      <method name="graphic" signature="graphic()" start="36" end="39" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="graphic" signature="graphic()" start="36" end="39" crap="1" executable="1" executed="1" coverage="100"/>
     </class>
+    <coverage>
+      <line nr="13">
+        <covered by="Tests\Unit\ExampleTest::test_example"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceGraphic"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+        <covered by="Tests\Unit\ExampleTest::test_Game"/>
+      </line>
+      <line nr="15">
+        <covered by="Tests\Unit\ExampleTest::test_example"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceGraphic"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+        <covered by="Tests\Unit\ExampleTest::test_Game"/>
+      </line>
+      <line nr="20">
+        <covered by="Tests\Unit\ExampleTest::test_example"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceGraphic"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="25">
+        <covered by="Tests\Unit\ExampleTest::test_example2"/>
+      </line>
+      <line nr="26">
+        <covered by="Tests\Unit\ExampleTest::test_example2"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Unit\ExampleTest::test_example2"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\ExampleTest::test_DiceGraphic"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+    </coverage>
     <source>
       <line no="1">
         <token name="T_OPEN_TAG">&lt;?php</token>

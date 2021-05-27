@@ -2,24 +2,103 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DiceHand.php" path="\Models">
     <totals>
-      <lines total="108" comments="26" code="82" executable="31" executed="0" percent="0.00"/>
-      <methods count="9" tested="0" percent="0.00"/>
+      <lines total="108" comments="26" code="82" executable="31" executed="23" percent="74.19"/>
+      <methods count="9" tested="7" percent="77.78"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="App\Models\DiceHand" start="17" executable="31" executed="0" crap="272">
+    <class name="App\Models\DiceHand" start="17" executable="31" executed="23" crap="20.4">
       <namespace name="App\Models"/>
-      <method name="__construct" signature="__construct(int $die)" start="24" end="30" crap="6" executable="4" executed="0" coverage="0"/>
-      <method name="createDice" signature="createDice(int $die)" start="32" end="38" crap="6" executable="4" executed="0" coverage="0"/>
-      <method name="roll" signature="roll()" start="40" end="48" crap="6" executable="5" executed="0" coverage="0"/>
+      <method name="__construct" signature="__construct(int $die)" start="24" end="30" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="createDice" signature="createDice(int $die)" start="32" end="38" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="roll" signature="roll()" start="40" end="48" crap="2" executable="5" executed="5" coverage="100"/>
       <method name="getDice" signature="getDice(array $options)" start="50" end="62" crap="12" executable="6" executed="0" coverage="0"/>
-      <method name="getLastRoll" signature="getLastRoll(): string" start="64" end="72" crap="6" executable="4" executed="0" coverage="0"/>
-      <method name="getSum" signature="getSum(): int" start="74" end="77" crap="2" executable="1" executed="0" coverage="0"/>
-      <method name="getRollSum" signature="getRollSum(): int" start="79" end="82" crap="2" executable="1" executed="0" coverage="0"/>
+      <method name="getLastRoll" signature="getLastRoll(): string" start="64" end="72" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="getSum" signature="getSum(): int" start="74" end="77" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getRollSum" signature="getRollSum(): int" start="79" end="82" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="setRollSum" signature="setRollSum()" start="84" end="87" crap="2" executable="2" executed="0" coverage="0"/>
-      <method name="printRoll" signature="printRoll(): string" start="99" end="107" crap="6" executable="4" executed="0" coverage="0"/>
+      <method name="printRoll" signature="printRoll()" start="99" end="107" crap="2" executable="4" executed="4" coverage="100"/>
     </class>
+    <coverage>
+      <line nr="26">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Construct"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="27">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Construct"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="28">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Construct"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="30">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Construct"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="34">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+      </line>
+      <line nr="35">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+      </line>
+      <line nr="36">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+      </line>
+      <line nr="38">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_CreateDice"/>
+      </line>
+      <line nr="43">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="44">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="45">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="47">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="48">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="66">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="67">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="68">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="71">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="76">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="81">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="101">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="102">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="103">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+      <line nr="106">
+        <covered by="Tests\Unit\ExampleTest::test_DiceHand_Roll"/>
+      </line>
+    </coverage>
     <source>
       <line no="1">
         <token name="T_OPEN_TAG">&lt;?php</token>
@@ -743,9 +822,6 @@
         <token name="T_STRING">printRoll</token>
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_CLOSE_BRACKET">)</token>
-        <token name="T_COLON">:</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_STRING">string</token>
       </line>
       <line no="100">
         <token name="T_WHITESPACE">    </token>
@@ -757,7 +833,9 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_EQUAL">=</token>
         <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;p class='dice-utf8'&gt;"</token>
+        <token name="T_ARRAY">array</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
       <line no="102">
@@ -790,12 +868,10 @@
       <line no="103">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$res</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_WHITESPACE"> </token>
-        <token name="T_CONCAT_EQUAL">.=</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;i class="</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_DOT">.</token>
+        <token name="T_EQUAL">=</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$this</token>
         <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -807,10 +883,6 @@
         <token name="T_STRING">graphic</token>
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_CLOSE_BRACKET">)</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_DOT">.</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"&gt;&lt;/i&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
       <line no="104">
@@ -823,10 +895,6 @@
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$res</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_DOT">.</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/p&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
       <line no="107">
