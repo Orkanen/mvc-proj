@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622058345">
-  <project timestamp="1622058345">
+<coverage generated="1622086221">
+  <project timestamp="1622086221">
     <file name="C:\Users\Orkanen\dbwebb-kurser\mvc\me\proj\laravel\app\app\Console\Kernel.php">
       <class name="App\Console\Kernel" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
@@ -61,34 +61,6 @@
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="C:\Users\Orkanen\dbwebb-kurser\mvc\me\proj\laravel\app\app\Http\Controllers\ControllerBase.php">
-      <class name="Fian\Controller\ControllerBase" namespace="global">
-        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
-      </class>
-      <line num="17" type="method" name="response" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <line num="24" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="28" type="method" name="redirect" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="32" type="stmt" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <metrics loc="38" ncloc="35" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
-    </file>
-    <file name="C:\Users\Orkanen\dbwebb-kurser\mvc\me\proj\laravel\app\app\Http\Controllers\ControllerTrait.php">
-      <class name="Fian\Controller\ControllerTrait" namespace="global">
-        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
-      </class>
-      <line num="17" type="method" name="response" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <line num="24" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="28" type="method" name="redirect" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="32" type="stmt" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <metrics loc="38" ncloc="35" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
     </file>
     <file name="C:\Users\Orkanen\dbwebb-kurser\mvc\me\proj\laravel\app\app\Http\Controllers\DiceController.php">
       <class name="App\Http\Controllers\DiceController" namespace="global">
@@ -608,6 +580,6 @@
       <line num="62" type="stmt" count="0"/>
       <metrics loc="63" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
     </file>
-    <metrics files="29" loc="1451" ncloc="1138" classes="19" methods="53" coveredmethods="21" conditionals="0" coveredconditionals="0" statements="380" coveredstatements="49" elements="433" coveredelements="70"/>
+    <metrics files="27" loc="1375" ncloc="1068" classes="17" methods="49" coveredmethods="21" conditionals="0" coveredconditionals="0" statements="368" coveredstatements="49" elements="417" coveredelements="70"/>
   </project>
 </coverage>

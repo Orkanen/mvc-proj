@@ -1,0 +1,28 @@
+if (funds > bet) {
+    createNewGameFunction();
+    roll = 0;
+    stop = false;
+    roboRoll = 0;
+    while(roll =< 21 or stop == true) {
+        if(choiceRollDice()) {
+            roll = rollDiceFunction();
+        } else {
+            stop = true;
+        }
+    }
+    if (roll <= 21) {
+        while(roboRoll < roll) {
+            roboRoll = rollRoboDice();
+        }
+        if(roboRoll > roll && roboRoll <= 21) {
+            echo "Computer wins!"
+            funds - bet
+        } else {
+            echo "You win"
+            funds + bet
+        }
+    } else {
+        "You lose"
+        funds - bet
+    }
+}
